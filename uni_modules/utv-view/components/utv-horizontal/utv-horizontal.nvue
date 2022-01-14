@@ -1,0 +1,25 @@
+<template>
+	<view class="utv-horizontal">
+		<slot></slot>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style scoped>
+	.utv-horizontal{
+		display: flex;
+		flex-direction: row;
+	}
+</style>
